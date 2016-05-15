@@ -22,7 +22,7 @@ pod "Quack"
 
 ## Author
 
-Maksym Skliarov, maksym.skliarov@gmail.com
+Maksym Skliarov maksym@appdev.academy
 
 ## License
 
