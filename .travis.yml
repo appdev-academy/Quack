@@ -3,6 +3,7 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: swift
+osx_image: xcode7.3
 
 before_install:
 - gem install cocoapods
