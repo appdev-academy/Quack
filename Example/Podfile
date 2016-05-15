@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'Quack_Example' do
+  
+  pod 'Quack', :path => '../'
+  
+  target 'Quack_Tests' do
+    inherit! :search_paths
+  end
+end

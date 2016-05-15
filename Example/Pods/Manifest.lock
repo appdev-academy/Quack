@@ -1,0 +1,16 @@
+PODS:
+  - Quack (0.1.0)
+
+DEPENDENCIES:
+  - Quack (from `../`)
+
+EXTERNAL SOURCES:
+  Quack:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Quack: f7dbe3f6257335837946a728da49109d32bce1a2
+
+PODFILE CHECKSUM: 6a82a360f67c8fed3a4ea502475abf14ce6ea505
+
+COCOAPODS: 1.0.0

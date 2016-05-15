@@ -1,0 +1,6 @@
+framework module Quack {
+  umbrella header "Quack-umbrella.h"
+
+  export *
+  module * { export * }
+}
