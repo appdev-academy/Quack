@@ -17,8 +17,8 @@ internal class HoverViewController: UIViewController {
         Defines style of hover - light or dark
     */
     internal enum HoverStyle {
-        case Light
-        case Dark
+        case light
+        case dark
     }
     
     // MARK: - User interface elements
@@ -26,23 +26,23 @@ internal class HoverViewController: UIViewController {
     /**
         Spinner in the center
     */
-    private let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.White)
+    fileprivate let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .white)
     /**
         UILabel under spinner
     */
-    private let titleLabel = UILabel(frame: CGRect.zero)
+    fileprivate let titleLabel = UILabel(frame: CGRect.zero)
     /**
         Duration of show/hide animation
     */
-    private var animationDuration: NSTimeInterval = 0.25
+    fileprivate var animationDuration: TimeInterval = 0.25
     /**
         HoverStyle for this view controller
     */
-    private var hoverStyle = HoverStyle.Dark
+    fileprivate var hoverStyle = HoverStyle.dark
     /**
         Text that will be shown under the spinner
     */
-    private var text = ""
+    fileprivate var text = ""
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -70,23 +70,23 @@ internal class HoverViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = UIColor.clearColor()
+        self.view.backgroundColor = .clear
         
         self.addSpinner()
         self.addLabel()
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         self.animateShow()
     }
     
-    private func addSpinner() {
-        if self.hoverStyle == .Light {
-            self.activityIndicatorView.activityIndicatorViewStyle = .Gray
+    fileprivate func addSpinner() {
+        if self.hoverStyle == .light {
+            self.activityIndicatorView.activityIndicatorViewStyle = .gray
         } else {
-            self.activityIndicatorView.activityIndicatorViewStyle = .White
+            self.activityIndicatorView.activityIndicatorViewStyle = .white
         }
         self.activityIndicatorView.alpha = 0.0
         self.activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
@@ -96,35 +96,35 @@ internal class HoverViewController: UIViewController {
         var constraints: [NSLayoutConstraint] = []
         constraints.append(NSLayoutConstraint(
             item: self.activityIndicatorView,
-            attribute: .CenterX,
-            relatedBy: .Equal,
+            attribute: .centerX,
+            relatedBy: .equal,
             toItem: self.view,
-            attribute: .CenterX,
+            attribute: .centerX,
             multiplier: 1.0,
             constant: 0.0)
         )
         constraints.append(NSLayoutConstraint(
             item: self.activityIndicatorView,
-            attribute: .CenterY,
-            relatedBy: .Equal,
+            attribute: .centerY,
+            relatedBy: .equal,
             toItem: self.view,
-            attribute: .CenterY,
+            attribute: .centerY,
             multiplier: 1.0,
             constant: 0.0)
         )
         self.view.addConstraints(constraints)
     }
     
-    private func addLabel() {
-        if self.hoverStyle == .Light {
-            self.titleLabel.textColor = UIColor.blackColor()
+    fileprivate func addLabel() {
+        if self.hoverStyle == .light {
+            self.titleLabel.textColor = .black
         } else {
-            self.titleLabel.textColor = UIColor.whiteColor()
+            self.titleLabel.textColor = .white
         }
-        self.titleLabel.font = UIFont.systemFontOfSize(12.0)
+        self.titleLabel.font = UIFont.systemFont(ofSize: 12.0)
         self.titleLabel.alpha = 0.0
         self.titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        self.titleLabel.textAlignment = .Center
+        self.titleLabel.textAlignment = .center
         self.titleLabel.text = self.text
         self.titleLabel.numberOfLines = 1
         self.view.addSubview(self.titleLabel)
@@ -132,37 +132,37 @@ internal class HoverViewController: UIViewController {
         var constraints: [NSLayoutConstraint] = []
         constraints.append(NSLayoutConstraint(
             item: self.titleLabel,
-            attribute: .Top,
-            relatedBy: .Equal,
+            attribute: .top,
+            relatedBy: .equal,
             toItem: self.activityIndicatorView,
-            attribute: .Bottom,
+            attribute: .bottom,
             multiplier: 1.0,
             constant: 10.0)
         )
         constraints.append(NSLayoutConstraint(
             item: self.titleLabel,
-            attribute: .Height,
-            relatedBy: .Equal,
+            attribute: .height,
+            relatedBy: .equal,
             toItem: nil,
-            attribute: .NotAnAttribute,
+            attribute: .notAnAttribute,
             multiplier: 1.0,
             constant: 22.0)
         )
         constraints.append(NSLayoutConstraint(
             item: self.titleLabel,
-            attribute: .Leading,
-            relatedBy: .Equal,
+            attribute: .leading,
+            relatedBy: .equal,
             toItem: self.view,
-            attribute: .Leading,
+            attribute: .leading,
             multiplier: 1.0,
             constant: 20.0)
         )
         constraints.append(NSLayoutConstraint(
             item: self.titleLabel,
-            attribute: .Trailing,
-            relatedBy: .Equal,
+            attribute: .trailing,
+            relatedBy: .equal,
             toItem: self.view,
-            attribute: .Trailing,
+            attribute: .trailing,
             multiplier: 1.0,
             constant: -20.0)
         )
@@ -172,29 +172,29 @@ internal class HoverViewController: UIViewController {
     /**
         Animate presentation of HoverViewController
     */
-    private func animateShow() {
-        UIView.animateWithDuration(self.animationDuration) {
+    fileprivate func animateShow() {
+        UIView.animate(withDuration: self.animationDuration, animations: {
             self.activityIndicatorView.alpha = 1.0
             self.titleLabel.alpha = 0.6
-            if self.hoverStyle == .Light {
-                self.view.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.6)
+            if self.hoverStyle == .light {
+                self.view.backgroundColor = UIColor.white.withAlphaComponent(0.6)
             } else {
-                self.view.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.6)
+                self.view.backgroundColor = UIColor.black.withAlphaComponent(0.6)
             }
-        }
+        }) 
     }
     
     /**
         Animate hide of HoverViewController
     */
     internal func animateHide() {
-        UIView.animateWithDuration(
-            self.animationDuration,
+        UIView.animate(
+            withDuration: self.animationDuration,
             animations: {
                 
                 self.activityIndicatorView.alpha = 0.0
                 self.titleLabel.alpha = 0.0
-                self.view.backgroundColor = UIColor.clearColor()
+                self.view.backgroundColor = .clear
                 
             }, completion: {
                 finished in
