@@ -11,16 +11,16 @@ import Quack
 
 class ViewController: UIViewController {
     
-    private var timer: NSTimer?
+    fileprivate var timer: Timer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        self.view.backgroundColor = UIColor.whiteColor()
+        self.view.backgroundColor = .white
     }
     
     // MARK: - Actions
@@ -46,6 +46,6 @@ class ViewController: UIViewController {
         Quack.showDarkHover(text: "Loading")
         
         // Create timer to hide hover
-        self.timer = NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: #selector(ViewController.hideHover), userInfo: nil, repeats: false)
+        self.timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(ViewController.hideHover), userInfo: nil, repeats: false)
     }
 }
