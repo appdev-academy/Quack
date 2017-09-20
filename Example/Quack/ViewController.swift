@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     
     // MARK: - Actions
     
-    func hideHover() {
+    @objc func hideHover() {
         self.timer?.invalidate()
         self.timer = nil
         
