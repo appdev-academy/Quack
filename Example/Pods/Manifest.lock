@@ -1,5 +1,5 @@
 PODS:
-  - Quack (0.1.0)
+  - Quack (0.2.0)
 
 DEPENDENCIES:
   - Quack (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Quack: f7dbe3f6257335837946a728da49109d32bce1a2
+  Quack: 5ee5b9fc2699d0e105d6da98366eda7c870353cf
 
 PODFILE CHECKSUM: 6a82a360f67c8fed3a4ea502475abf14ce6ea505
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.1.1
