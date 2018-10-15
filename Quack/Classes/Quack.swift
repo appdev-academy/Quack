@@ -20,7 +20,7 @@ open class Quack {
     fileprivate lazy var hoverWindow: UIWindow = {
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.backgroundColor = UIColor.clear
-        window.windowLevel = UIWindowLevelStatusBar - 1
+        window.windowLevel = UIWindow.Level.statusBar - 1
         window.screen = UIScreen.main
         return window
     }()
