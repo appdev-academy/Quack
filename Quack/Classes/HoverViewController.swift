@@ -26,7 +26,7 @@ internal class HoverViewController: UIViewController {
     /**
         Spinner in the center
     */
-  fileprivate let activityIndicatorView = UIActivityIndicatorView(style: .white)
+  fileprivate let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .white)
     /**
         UILabel under spinner
     */
@@ -84,9 +84,9 @@ internal class HoverViewController: UIViewController {
     
     fileprivate func addSpinner() {
         if self.hoverStyle == .light {
-          self.activityIndicatorView.style = .gray
+          self.activityIndicatorView.activityIndicatorViewStyle = .gray
         } else {
-          self.activityIndicatorView.style = .white
+          self.activityIndicatorView.activityIndicatorViewStyle = .white
         }
         self.activityIndicatorView.alpha = 0.0
         self.activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
