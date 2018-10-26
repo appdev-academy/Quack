@@ -43,7 +43,7 @@
 		64BDD502467EC51B2F663C9A /* Pods-Quack_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quack_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quack_Tests/Pods-Quack_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6F833D55556A1BA7A87CFFA9 /* Pods-Quack_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quack_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quack_Example/Pods-Quack_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		80395BF8FF9299BE7F22965F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D39257999BF498BE863E3264 /* Quack.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Quack.podspec; path = ../Quack.podspec; sourceTree = "<group>"; };
+		D39257999BF498BE863E3264 /* Quack.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Quack.podspec; path = ../Quack.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E7205A05B3E36DB1F0F36FB4 /* Pods_Quack_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quack_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9683F1036A292B221214787 /* Pods_Quack_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quack_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02C6C0FAEE1D49D291A73A5 /* Pods-Quack_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quack_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quack_Tests/Pods-Quack_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -216,7 +216,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1000;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -267,7 +267,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Quack_Example/Pods-Quack_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Quack_Example/Pods-Quack_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Quack/Quack.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -276,7 +276,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quack_Example/Pods-Quack_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quack_Example/Pods-Quack_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2DC87FAE9DB7177537CDF4B9 /* [CP] Check Pods Manifest.lock */ = {
@@ -482,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -498,7 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -515,8 +515,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -529,8 +528,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
