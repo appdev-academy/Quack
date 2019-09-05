@@ -2,9 +2,9 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
-language: objective-c
-osx_image: xcode9
+language: swift
+osx_image: xcode10.3
 
 script:
-- set -o pipefail && xcodebuild -workspace Example/Quack.xcworkspace -scheme Quack-Example -sdk iphonesimulator11.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild -workspace Example/Quack.xcworkspace -scheme Quack-Example -sdk iphonesimulator12.4 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint

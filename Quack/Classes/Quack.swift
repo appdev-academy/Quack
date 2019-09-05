@@ -97,7 +97,7 @@ public extension UIViewController {
     /**
         Present UIAlertController with title, message and "OK" button from current controller
     */
-    public func showAlert(title: String?, message: String?) {
+  func showAlert(title: String?, message: String?) {
         Quack.showAlert(title: title, message: message, inController: self)
     }
 }
