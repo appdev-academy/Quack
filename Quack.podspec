@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Quack"
-  s.version          = "0.3.1"
+  s.version          = "0.3.2"
   s.summary          = "Quack will help you to utilize alerts, notifications and progress HUDs inside your iOS app"
   s.homepage         = "https://github.com/appdev-academy/Quack"
   s.license          = 'MIT'
@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   
   s.platform = :ios
   s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0'
   
   s.source_files = 'Quack/Classes/**/*'
   s.frameworks = 'UIKit'
