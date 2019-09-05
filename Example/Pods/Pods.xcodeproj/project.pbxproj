@@ -7,102 +7,168 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A021EEF551B34B5024A029042E95C31 /* Pods-Quack_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D20683E9D720A657122118669E6F13 /* Pods-Quack_Example-dummy.m */; };
-		2E235D7975113B8D8E70CB7068CD303B /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF9D87B21777D5729C6A65475F474D6 /* Quack.swift */; };
-		30F0DD619E7844F2AA6ECE57B633FD42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		33C060F4B24A30E1A9EC857DC6920A4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		5502CF006A8AB0E7EE53E2D310FE5473 /* HoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1296ED32A97A9405FEC62B18ECBC5A /* HoverViewController.swift */; };
-		5FDF0FC5A2DF432F9330FB19E68BBCB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		74A1CD00BDD624BE3905CE20B50B5A3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		96BBA8785A88636D4E3181496C30077C /* Pods-Quack_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0DFF9E93CABC273C6EE47BAA674E17 /* Pods-Quack_Tests-dummy.m */; };
-		A7A1D5F8C88DF07A274E1A89FEDE4558 /* Quack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A0422FAECFA065C2FF26C17D4A6B28 /* Quack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA6C1916443D12FCE2A71D94CB09FFFE /* Quack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4955E871B6D064625FCEE6D030FABA /* Quack-dummy.m */; };
-		D8ADE4B345CDAF8E86BEAF48F2FAB60C /* Pods-Quack_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D67244BB8BB30964613667C7FB87DC37 /* Pods-Quack_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC41BF8CD0AFA1B59B7809447D7CCDFD /* Pods-Quack_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 237F777EE318FF06B1440EC5E732AC09 /* Pods-Quack_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		125B230FD9B849E9FD8B879B2AA7229E /* Quack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3738590C7D5D0A193AF17EE018C3DDFB /* Quack-dummy.m */; };
+		181AAA5F52669DB723D2EB880FBD29DA /* HoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C4FAD0EA11500331CD5946F32BD85 /* HoverViewController.swift */; };
+		230CE7B402389D7653E41E0B686B9DC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		36869021C771F9CF22233325E7E15B7A /* Quack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED64876C1A84759767790284D986E0BA /* Quack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B83C06BA4B5261E85A720E3C6A9A0F6 /* Pods-Quack_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E02426683037BCFCB7B2E76634B4927 /* Pods-Quack_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7700ED910D9E78EEA56FF326C8BDDECD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		973960342B2A5E944738E03BDAAB777B /* Pods-Quack_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB34BFD61B2871C3460A7A38354E016 /* Pods-Quack_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D23F93E2CC5893390535980455E99A /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A357176C808E62211F8EAB9B6C506F /* Quack.swift */; };
+		BFEABAFBCE70565C99D4E40BD37F0405 /* Pods-Quack_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C1A493F086D5969F9A2E26FCC93D8E /* Pods-Quack_Tests-dummy.m */; };
+		C082D65B92A72FB2375658867C4A6617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		EB330016F4DB60F64064AC31F4A4FDD5 /* Pods-Quack_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF4F4F16A5CD07F89BF739C6B23740 /* Pods-Quack_Example-dummy.m */; };
+		F05D19FFCEA5D5BBB6048903C13B231B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CA4344AD360490761E2F5A4FCF679DFA /* PBXContainerItemProxy */ = {
+		7302D8B6FEB75926223854FD394689AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F107AE1B92242CB05736438E74081C9;
+			remoteGlobalIDString = 41DD5737870DDE3BB3A2EF01BDB457EE;
+			remoteInfo = "Pods-Quack_Example";
+		};
+		B4066DDF7FAEFD9FCACDD61A2E1610C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689E91DDDA545B151C56125C9A1BF799;
 			remoteInfo = Quack;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E9C20ED888EC7685EB8A78D1D00590 /* Pods_Quack_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quack_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		237F777EE318FF06B1440EC5E732AC09 /* Pods-Quack_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Quack_Example-umbrella.h"; sourceTree = "<group>"; };
-		2609B4F461D692B4664D5F5E4C19FF5C /* Pods-Quack_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Quack_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2A4955E871B6D064625FCEE6D030FABA /* Quack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quack-dummy.m"; sourceTree = "<group>"; };
-		2B1178F2D3F9C6FB8EDCCEA555B4B35B /* Pods-Quack_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quack_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		35D4E5BD067142C15D2E698605C30735 /* Pods-Quack_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quack_Example.release.xcconfig"; sourceTree = "<group>"; };
-		425573F59057787A45C484AEFDE11678 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		497F33CCDD0B13BA45FA16980B01B543 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50301E5C4805BD5A95B80AAFA9099A18 /* Pods-Quack_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quack_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		62CF1CB4A9FC716D3903D4C8FDB946DC /* Quack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Quack.modulemap; sourceTree = "<group>"; };
-		6BF9D87B21777D5729C6A65475F474D6 /* Quack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Quack.swift; sourceTree = "<group>"; };
-		6DF5AE4FBD87D7F674CD92584738905D /* Pods-Quack_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Quack_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6FA046976CC10992FCD9E502DA96001D /* Pods-Quack_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quack_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		936EDCFE41004B807CFB24E8C802569F /* Pods-Quack_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Quack_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A0DFF9E93CABC273C6EE47BAA674E17 /* Pods-Quack_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Quack_Tests-dummy.m"; sourceTree = "<group>"; };
-		AC1296ED32A97A9405FEC62B18ECBC5A /* HoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoverViewController.swift; sourceTree = "<group>"; };
-		B0D20683E9D720A657122118669E6F13 /* Pods-Quack_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Quack_Example-dummy.m"; sourceTree = "<group>"; };
-		B6A0422FAECFA065C2FF26C17D4A6B28 /* Quack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quack-umbrella.h"; sourceTree = "<group>"; };
-		B778F3D759D05791096C48566579A224 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCD2C85E2F328CA2757599779B42510A /* Pods-Quack_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Quack_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BF58216F73EEB48D17BF9A08A5C0C5F6 /* Pods-Quack_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Quack_Tests-resources.sh"; sourceTree = "<group>"; };
-		C7B981D634E6A2B89269517620836F09 /* Pods-Quack_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Quack_Tests.modulemap"; sourceTree = "<group>"; };
-		CC612B35E1D4D8F90B0AD50F03411215 /* Pods-Quack_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quack_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D0E75497A9A799B178CCC364C277FA52 /* Pods-Quack_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Quack_Example.modulemap"; sourceTree = "<group>"; };
-		D5F72341D7FC62DC7C2B02AD7E597677 /* Quack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quack-prefix.pch"; sourceTree = "<group>"; };
-		D65B511EA3C86604E57FA6B874E395B5 /* Pods-Quack_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quack_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D67244BB8BB30964613667C7FB87DC37 /* Pods-Quack_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Quack_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E4CB305D9386DDF926F7D8BF62403039 /* Quack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC559AA8A2A10B1F3B87CD7154B5F769 /* Pods-Quack_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Quack_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F31B360B563291AE545DD527177A633A /* Pods_Quack_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quack_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5F6EC2AB06E4E8E8973B42D4AADE351 /* Quack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quack.xcconfig; sourceTree = "<group>"; };
+		01E9C20ED888EC7685EB8A78D1D00590 /* Pods_Quack_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Quack_Tests.framework; path = "Pods-Quack_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABA5137F15683DE1AEA56EB1E5E5032 /* Pods-Quack_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Quack_Example.modulemap"; sourceTree = "<group>"; };
+		0CC7DB98BAF4B6EEA5758DDB54ECF649 /* Pods-Quack_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quack_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		166C813125BBDAE62EF3F45CE08432A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3738590C7D5D0A193AF17EE018C3DDFB /* Quack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quack-dummy.m"; sourceTree = "<group>"; };
+		38D3D567F3CBE8AAE322F46767DEF405 /* Pods-Quack_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Quack_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40C1A493F086D5969F9A2E26FCC93D8E /* Pods-Quack_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Quack_Tests-dummy.m"; sourceTree = "<group>"; };
+		53A16A074F62FF2167F05E0E9B9DEEAD /* Quack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Quack.modulemap; sourceTree = "<group>"; };
+		541F4F6350B530FCA36850D8F5178920 /* Pods-Quack_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Quack_Tests.modulemap"; sourceTree = "<group>"; };
+		61A357176C808E62211F8EAB9B6C506F /* Quack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Quack.swift; path = Quack/Classes/Quack.swift; sourceTree = "<group>"; };
+		634FC8B9F8F79ED5B957C0959F2882C8 /* Pods-Quack_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quack_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6EA3FC3C81B7DFAAAC35927B564E44E7 /* Pods-Quack_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quack_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		71D6DC6255B1954B0878DEA7AFA760B5 /* Quack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quack.xcconfig; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E02426683037BCFCB7B2E76634B4927 /* Pods-Quack_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Quack_Example-umbrella.h"; sourceTree = "<group>"; };
+		89DFA48BF3BF7E877866614F0842BF5F /* Quack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Quack-Info.plist"; sourceTree = "<group>"; };
+		8CB34BFD61B2871C3460A7A38354E016 /* Pods-Quack_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Quack_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8D30982DFA3FA680C959F3FD59AB25B1 /* Pods-Quack_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quack_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D24F8FF5FD0A370E9D7E9BCF9190972 /* Pods-Quack_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Quack_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B52D184DB444A819186BCB27A9148DC9 /* Pods-Quack_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Quack_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B68C4FAD0EA11500331CD5946F32BD85 /* HoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoverViewController.swift; path = Quack/Classes/HoverViewController.swift; sourceTree = "<group>"; };
+		C624EEC8AFFC11B8607045DF238C3296 /* Quack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quack-prefix.pch"; sourceTree = "<group>"; };
+		C6ACD22D461AB866B6B8A76FC5F8AD67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CFDB872942460E0093147378553FFB35 /* Pods-Quack_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quack_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D09638AA69583FABB6055DEEC583B5B5 /* Quack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Quack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D49D56242F573C7CEB5615C2821A71C1 /* Pods-Quack_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quack_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D744FC3270DD56975E8CAEFB6AE294B3 /* Pods-Quack_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quack_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBAF4F4F16A5CD07F89BF739C6B23740 /* Pods-Quack_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Quack_Example-dummy.m"; sourceTree = "<group>"; };
+		E4CB305D9386DDF926F7D8BF62403039 /* Quack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quack.framework; path = Quack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED64876C1A84759767790284D986E0BA /* Quack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quack-umbrella.h"; sourceTree = "<group>"; };
+		F22406F25319F0A57A9332C455C4CA8F /* Pods-Quack_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quack_Example-Info.plist"; sourceTree = "<group>"; };
+		F31B360B563291AE545DD527177A633A /* Pods_Quack_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Quack_Example.framework; path = "Pods-Quack_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D4B39ACA8DD13227CE9372B92B1DEFC /* Frameworks */ = {
+		4789A387212BFCF7ECA3CE9C5F5A1BC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDF0FC5A2DF432F9330FB19E68BBCB2 /* Foundation.framework in Frameworks */,
+				C082D65B92A72FB2375658867C4A6617 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D667150FD2B2071290BF2012D77CB1F /* Frameworks */ = {
+		DB37565AC21810C63C7857A5E694FF73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A1CD00BDD624BE3905CE20B50B5A3F /* Foundation.framework in Frameworks */,
-				33C060F4B24A30E1A9EC857DC6920A4A /* UIKit.framework in Frameworks */,
+				230CE7B402389D7653E41E0B686B9DC2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E40E1D43C1B5DE46D32BD2746B2054A2 /* Frameworks */ = {
+		E67B70B70117404CF80E416A298D5938 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30F0DD619E7844F2AA6ECE57B633FD42 /* Foundation.framework in Frameworks */,
+				F05D19FFCEA5D5BBB6048903C13B231B /* Foundation.framework in Frameworks */,
+				7700ED910D9E78EEA56FF326C8BDDECD /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		257F210DF6068984A70BF3F5512F7768 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3879E86DF29F51748A8B4BC7C4B8FAE1 /* Pods-Quack_Example */,
+				4E740DFD44B7FAFC1A653530CD1D4F24 /* Pods-Quack_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2CE97C660C1877126C706EFB17C18620 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5A59D7A39FB93E20730E0D56CC50D92 /* Quack */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3879E86DF29F51748A8B4BC7C4B8FAE1 /* Pods-Quack_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0ABA5137F15683DE1AEA56EB1E5E5032 /* Pods-Quack_Example.modulemap */,
+				38D3D567F3CBE8AAE322F46767DEF405 /* Pods-Quack_Example-acknowledgements.markdown */,
+				0CC7DB98BAF4B6EEA5758DDB54ECF649 /* Pods-Quack_Example-acknowledgements.plist */,
+				DBAF4F4F16A5CD07F89BF739C6B23740 /* Pods-Quack_Example-dummy.m */,
+				B52D184DB444A819186BCB27A9148DC9 /* Pods-Quack_Example-frameworks.sh */,
+				F22406F25319F0A57A9332C455C4CA8F /* Pods-Quack_Example-Info.plist */,
+				7E02426683037BCFCB7B2E76634B4927 /* Pods-Quack_Example-umbrella.h */,
+				634FC8B9F8F79ED5B957C0959F2882C8 /* Pods-Quack_Example.debug.xcconfig */,
+				D49D56242F573C7CEB5615C2821A71C1 /* Pods-Quack_Example.release.xcconfig */,
+			);
+			name = "Pods-Quack_Example";
+			path = "Target Support Files/Pods-Quack_Example";
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E740DFD44B7FAFC1A653530CD1D4F24 /* Pods-Quack_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				541F4F6350B530FCA36850D8F5178920 /* Pods-Quack_Tests.modulemap */,
+				9D24F8FF5FD0A370E9D7E9BCF9190972 /* Pods-Quack_Tests-acknowledgements.markdown */,
+				6EA3FC3C81B7DFAAAC35927B564E44E7 /* Pods-Quack_Tests-acknowledgements.plist */,
+				40C1A493F086D5969F9A2E26FCC93D8E /* Pods-Quack_Tests-dummy.m */,
+				8D30982DFA3FA680C959F3FD59AB25B1 /* Pods-Quack_Tests-Info.plist */,
+				8CB34BFD61B2871C3460A7A38354E016 /* Pods-Quack_Tests-umbrella.h */,
+				D744FC3270DD56975E8CAEFB6AE294B3 /* Pods-Quack_Tests.debug.xcconfig */,
+				CFDB872942460E0093147378553FFB35 /* Pods-Quack_Tests.release.xcconfig */,
+			);
+			name = "Pods-Quack_Tests";
+			path = "Target Support Files/Pods-Quack_Tests";
 			sourceTree = "<group>";
 		};
 		6636A8DB7E621F52793D605291CDA01E /* Products */ = {
@@ -115,157 +181,110 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		71EB0916348FB91F76D9CAD90C9B5F52 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C5B7F0D44AF280004579A6261B1D618A /* Quack */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				71EB0916348FB91F76D9CAD90C9B5F52 /* Development Pods */,
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				2CE97C660C1877126C706EFB17C18620 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				6636A8DB7E621F52793D605291CDA01E /* Products */,
-				E86B162353B99240435E06DCBF9FD27E /* Targets Support Files */,
+				257F210DF6068984A70BF3F5512F7768 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8F36913784B9312D359A46ED2B709B69 /* Pods-Quack_Tests */ = {
+		B49638D34341ADE97FDF889D1E4F315B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				425573F59057787A45C484AEFDE11678 /* Info.plist */,
-				C7B981D634E6A2B89269517620836F09 /* Pods-Quack_Tests.modulemap */,
-				6DF5AE4FBD87D7F674CD92584738905D /* Pods-Quack_Tests-acknowledgements.markdown */,
-				CC612B35E1D4D8F90B0AD50F03411215 /* Pods-Quack_Tests-acknowledgements.plist */,
-				9A0DFF9E93CABC273C6EE47BAA674E17 /* Pods-Quack_Tests-dummy.m */,
-				2609B4F461D692B4664D5F5E4C19FF5C /* Pods-Quack_Tests-frameworks.sh */,
-				BF58216F73EEB48D17BF9A08A5C0C5F6 /* Pods-Quack_Tests-resources.sh */,
-				D67244BB8BB30964613667C7FB87DC37 /* Pods-Quack_Tests-umbrella.h */,
-				D65B511EA3C86604E57FA6B874E395B5 /* Pods-Quack_Tests.debug.xcconfig */,
-				6FA046976CC10992FCD9E502DA96001D /* Pods-Quack_Tests.release.xcconfig */,
+				C6ACD22D461AB866B6B8A76FC5F8AD67 /* LICENSE */,
+				D09638AA69583FABB6055DEEC583B5B5 /* Quack.podspec */,
+				166C813125BBDAE62EF3F45CE08432A8 /* README.md */,
 			);
-			name = "Pods-Quack_Tests";
-			path = "Target Support Files/Pods-Quack_Tests";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		A4BFCE68BD6E0DDE40ED8BE97ECDC574 /* Support Files */ = {
+		CD49D67B08D67015D264A27DF9AEEF24 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B778F3D759D05791096C48566579A224 /* Info.plist */,
-				62CF1CB4A9FC716D3903D4C8FDB946DC /* Quack.modulemap */,
-				F5F6EC2AB06E4E8E8973B42D4AADE351 /* Quack.xcconfig */,
-				2A4955E871B6D064625FCEE6D030FABA /* Quack-dummy.m */,
-				D5F72341D7FC62DC7C2B02AD7E597677 /* Quack-prefix.pch */,
-				B6A0422FAECFA065C2FF26C17D4A6B28 /* Quack-umbrella.h */,
+				53A16A074F62FF2167F05E0E9B9DEEAD /* Quack.modulemap */,
+				71D6DC6255B1954B0878DEA7AFA760B5 /* Quack.xcconfig */,
+				3738590C7D5D0A193AF17EE018C3DDFB /* Quack-dummy.m */,
+				89DFA48BF3BF7E877866614F0842BF5F /* Quack-Info.plist */,
+				C624EEC8AFFC11B8607045DF238C3296 /* Quack-prefix.pch */,
+				ED64876C1A84759767790284D986E0BA /* Quack-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Quack";
 			sourceTree = "<group>";
 		};
-		B84774FCD6C713C96A0EC9334DCE5C24 /* Pods-Quack_Example */ = {
+		E5A59D7A39FB93E20730E0D56CC50D92 /* Quack */ = {
 			isa = PBXGroup;
 			children = (
-				497F33CCDD0B13BA45FA16980B01B543 /* Info.plist */,
-				D0E75497A9A799B178CCC364C277FA52 /* Pods-Quack_Example.modulemap */,
-				EC559AA8A2A10B1F3B87CD7154B5F769 /* Pods-Quack_Example-acknowledgements.markdown */,
-				50301E5C4805BD5A95B80AAFA9099A18 /* Pods-Quack_Example-acknowledgements.plist */,
-				B0D20683E9D720A657122118669E6F13 /* Pods-Quack_Example-dummy.m */,
-				BCD2C85E2F328CA2757599779B42510A /* Pods-Quack_Example-frameworks.sh */,
-				936EDCFE41004B807CFB24E8C802569F /* Pods-Quack_Example-resources.sh */,
-				237F777EE318FF06B1440EC5E732AC09 /* Pods-Quack_Example-umbrella.h */,
-				2B1178F2D3F9C6FB8EDCCEA555B4B35B /* Pods-Quack_Example.debug.xcconfig */,
-				35D4E5BD067142C15D2E698605C30735 /* Pods-Quack_Example.release.xcconfig */,
-			);
-			name = "Pods-Quack_Example";
-			path = "Target Support Files/Pods-Quack_Example";
-			sourceTree = "<group>";
-		};
-		B9C6C49413D705C7951CBE1CB2008F0E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AC1296ED32A97A9405FEC62B18ECBC5A /* HoverViewController.swift */,
-				6BF9D87B21777D5729C6A65475F474D6 /* Quack.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		C5B7F0D44AF280004579A6261B1D618A /* Quack */ = {
-			isa = PBXGroup;
-			children = (
-				EF5CBF20D9165E223C8FF24013CE602C /* Quack */,
-				A4BFCE68BD6E0DDE40ED8BE97ECDC574 /* Support Files */,
+				B68C4FAD0EA11500331CD5946F32BD85 /* HoverViewController.swift */,
+				61A357176C808E62211F8EAB9B6C506F /* Quack.swift */,
+				B49638D34341ADE97FDF889D1E4F315B /* Pod */,
+				CD49D67B08D67015D264A27DF9AEEF24 /* Support Files */,
 			);
 			name = Quack;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
-				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E86B162353B99240435E06DCBF9FD27E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B84774FCD6C713C96A0EC9334DCE5C24 /* Pods-Quack_Example */,
-				8F36913784B9312D359A46ED2B709B69 /* Pods-Quack_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		EF5CBF20D9165E223C8FF24013CE602C /* Quack */ = {
-			isa = PBXGroup;
-			children = (
-				B9C6C49413D705C7951CBE1CB2008F0E /* Classes */,
-			);
-			path = Quack;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		38A9B1E6161AD25AE921B850BCA5E853 /* Headers */ = {
+		03824D04C409D4BBEAB2DCB66F3865C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A1D5F8C88DF07A274E1A89FEDE4558 /* Quack-umbrella.h in Headers */,
+				3B83C06BA4B5261E85A720E3C6A9A0F6 /* Pods-Quack_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48B387FE64F58F40B76B95413F5B912B /* Headers */ = {
+		8CAF826EFFDC2D30896732DD04DC7D93 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC41BF8CD0AFA1B59B7809447D7CCDFD /* Pods-Quack_Example-umbrella.h in Headers */,
+				36869021C771F9CF22233325E7E15B7A /* Quack-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9F833C21521478F2810ECD31ACEF669 /* Headers */ = {
+		E4D219B0FE64683025CE0D508C695BC3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8ADE4B345CDAF8E86BEAF48F2FAB60C /* Pods-Quack_Tests-umbrella.h in Headers */,
+				973960342B2A5E944738E03BDAAB777B /* Pods-Quack_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2F107AE1B92242CB05736438E74081C9 /* Quack */ = {
+		41DD5737870DDE3BB3A2EF01BDB457EE /* Pods-Quack_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 078A7DCEC8D72CD74FFE025B8322F411 /* Build configuration list for PBXNativeTarget "Quack" */;
+			buildConfigurationList = 90E4917686A1F7785CFFF8ED8198568B /* Build configuration list for PBXNativeTarget "Pods-Quack_Example" */;
 			buildPhases = (
-				C2D500FF5512D242B105FC6310964B6E /* Sources */,
-				5D667150FD2B2071290BF2012D77CB1F /* Frameworks */,
-				38A9B1E6161AD25AE921B850BCA5E853 /* Headers */,
+				03824D04C409D4BBEAB2DCB66F3865C3 /* Headers */,
+				BCA277BC3C421A8D38CBE295C2976918 /* Sources */,
+				DB37565AC21810C63C7857A5E694FF73 /* Frameworks */,
+				AD560A827624B10D87E034E178ADA8C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20486E6C33DAC8C2575D6380B8041783 /* PBXTargetDependency */,
+			);
+			name = "Pods-Quack_Example";
+			productName = "Pods-Quack_Example";
+			productReference = F31B360B563291AE545DD527177A633A /* Pods_Quack_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		689E91DDDA545B151C56125C9A1BF799 /* Quack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2120E57F389FD993A98C0C9709CD4E6 /* Build configuration list for PBXNativeTarget "Quack" */;
+			buildPhases = (
+				8CAF826EFFDC2D30896732DD04DC7D93 /* Headers */,
+				6559001AC8B512C5E5762AC52014C382 /* Sources */,
+				E67B70B70117404CF80E416A298D5938 /* Frameworks */,
+				62FFA16A220513784285EB6BF68E0061 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -276,39 +295,23 @@
 			productReference = E4CB305D9386DDF926F7D8BF62403039 /* Quack.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3AF1F8BD2F5316403E5E97676864ED7D /* Pods-Quack_Tests */ = {
+		FBB255121F67123709514E781FCBA534 /* Pods-Quack_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 344A653C0AA78E3D7209DAB371FD654A /* Build configuration list for PBXNativeTarget "Pods-Quack_Tests" */;
+			buildConfigurationList = 3A63FB1F1FF011AD36536664ABE9196A /* Build configuration list for PBXNativeTarget "Pods-Quack_Tests" */;
 			buildPhases = (
-				53859FDB06857E16A00ABB71046C2084 /* Sources */,
-				3D4B39ACA8DD13227CE9372B92B1DEFC /* Frameworks */,
-				E9F833C21521478F2810ECD31ACEF669 /* Headers */,
+				E4D219B0FE64683025CE0D508C695BC3 /* Headers */,
+				F92024C45777D06F3B041860A86B2F6F /* Sources */,
+				4789A387212BFCF7ECA3CE9C5F5A1BC8 /* Frameworks */,
+				1638E6A7023089359E5204397EF19037 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C4046A4C3B2342B55D5E1A6785FE7BAE /* PBXTargetDependency */,
 			);
 			name = "Pods-Quack_Tests";
 			productName = "Pods-Quack_Tests";
 			productReference = 01E9C20ED888EC7685EB8A78D1D00590 /* Pods_Quack_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4BB0C997E1EC899B021A57853A4D6FCE /* Pods-Quack_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D526A49FB413E65F526D8FA041B39A30 /* Build configuration list for PBXNativeTarget "Pods-Quack_Example" */;
-			buildPhases = (
-				4BC5541D030485C5A28D59E8D90A3671 /* Sources */,
-				E40E1D43C1B5DE46D32BD2746B2054A2 /* Frameworks */,
-				48B387FE64F58F40B76B95413F5B912B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2CF7353E545678FE4E9DFDA0D0B6AFE /* PBXTargetDependency */,
-			);
-			name = "Pods-Quack_Example";
-			productName = "Pods-Quack_Example";
-			productReference = F31B360B563291AE545DD527177A633A /* Pods_Quack_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -338,54 +341,85 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4BB0C997E1EC899B021A57853A4D6FCE /* Pods-Quack_Example */,
-				3AF1F8BD2F5316403E5E97676864ED7D /* Pods-Quack_Tests */,
-				2F107AE1B92242CB05736438E74081C9 /* Quack */,
+				41DD5737870DDE3BB3A2EF01BDB457EE /* Pods-Quack_Example */,
+				FBB255121F67123709514E781FCBA534 /* Pods-Quack_Tests */,
+				689E91DDDA545B151C56125C9A1BF799 /* Quack */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1638E6A7023089359E5204397EF19037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FFA16A220513784285EB6BF68E0061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD560A827624B10D87E034E178ADA8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		4BC5541D030485C5A28D59E8D90A3671 /* Sources */ = {
+		6559001AC8B512C5E5762AC52014C382 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A021EEF551B34B5024A029042E95C31 /* Pods-Quack_Example-dummy.m in Sources */,
+				181AAA5F52669DB723D2EB880FBD29DA /* HoverViewController.swift in Sources */,
+				125B230FD9B849E9FD8B879B2AA7229E /* Quack-dummy.m in Sources */,
+				A4D23F93E2CC5893390535980455E99A /* Quack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53859FDB06857E16A00ABB71046C2084 /* Sources */ = {
+		BCA277BC3C421A8D38CBE295C2976918 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96BBA8785A88636D4E3181496C30077C /* Pods-Quack_Tests-dummy.m in Sources */,
+				EB330016F4DB60F64064AC31F4A4FDD5 /* Pods-Quack_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2D500FF5512D242B105FC6310964B6E /* Sources */ = {
+		F92024C45777D06F3B041860A86B2F6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5502CF006A8AB0E7EE53E2D310FE5473 /* HoverViewController.swift in Sources */,
-				BA6C1916443D12FCE2A71D94CB09FFFE /* Quack-dummy.m in Sources */,
-				2E235D7975113B8D8E70CB7068CD303B /* Quack.swift in Sources */,
+				BFEABAFBCE70565C99D4E40BD37F0405 /* Pods-Quack_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D2CF7353E545678FE4E9DFDA0D0B6AFE /* PBXTargetDependency */ = {
+		20486E6C33DAC8C2575D6380B8041783 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Quack;
-			target = 2F107AE1B92242CB05736438E74081C9 /* Quack */;
-			targetProxy = CA4344AD360490761E2F5A4FCF679DFA /* PBXContainerItemProxy */;
+			target = 689E91DDDA545B151C56125C9A1BF799 /* Quack */;
+			targetProxy = B4066DDF7FAEFD9FCACDD61A2E1610C4 /* PBXContainerItemProxy */;
+		};
+		C4046A4C3B2342B55D5E1A6785FE7BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Quack_Example";
+			target = 41DD5737870DDE3BB3A2EF01BDB457EE /* Pods-Quack_Example */;
+			targetProxy = 7302D8B6FEB75926223854FD394689AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		0912F275A818B42C9B387231A8E35F74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49D56242F573C7CEB5615C2821A71C1 /* Pods-Quack_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -434,35 +468,43 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Quack_Example/Pods-Quack_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		274C8BE2B0CF1A4BCB94E3F01D1C7142 /* Debug */ = {
+		7A950149818DA2609D62A1BFA4D0D6BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5F6EC2AB06E4E8E8973B42D4AADE351 /* Quack.xcconfig */;
+			baseConfigurationReference = 71D6DC6255B1954B0878DEA7AFA760B5 /* Quack.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Quack/Quack-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quack/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Quack/Quack-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Quack/Quack.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = Quack;
 				PRODUCT_NAME = Quack;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -474,65 +516,64 @@
 			};
 			name = Debug;
 		};
-		2DBC6B668D53EE02E4C9756E8C0C0F95 /* Release */ = {
+		B27548697FCB33FE7922696D6E9AFCA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35D4E5BD067142C15D2E698605C30735 /* Pods-Quack_Example.release.xcconfig */;
+			baseConfigurationReference = 634FC8B9F8F79ED5B957C0959F2882C8 /* Pods-Quack_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Quack_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Quack_Example/Pods-Quack_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Quack_Example/Pods-Quack_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Quack_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		31734AC2A63A415E34FA6725587F2767 /* Release */ = {
+		B46F5460DFC6C13C00166FCC258206BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5F6EC2AB06E4E8E8973B42D4AADE351 /* Quack.xcconfig */;
+			baseConfigurationReference = D744FC3270DD56975E8CAEFB6AE294B3 /* Pods-Quack_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Quack/Quack-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quack/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Quack_Tests/Pods-Quack_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Quack/Quack.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Quack;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Quack_Tests/Pods-Quack_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -540,18 +581,20 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -565,139 +608,166 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		832B8ACDF7191335B90695053C763627 /* Debug */ = {
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B1178F2D3F9C6FB8EDCCEA555B4B35B /* Pods-Quack_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Quack_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Quack_Example/Pods-Quack_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Quack_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E56FC1CDEDA1DE78C6267AA9F7270833 /* Debug */ = {
+		CFDA25FF9D564294E20534CDC029AAE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D65B511EA3C86604E57FA6B874E395B5 /* Pods-Quack_Tests.debug.xcconfig */;
+			baseConfigurationReference = CFDB872942460E0093147378553FFB35 /* Pods-Quack_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Quack_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Quack_Tests/Pods-Quack_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Quack_Tests/Pods-Quack_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Quack_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		EBDFC03D890C939652E19A30B5A657C2 /* Release */ = {
+		D66EB300C658435C5DB7C0E08F996D19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FA046976CC10992FCD9E502DA96001D /* Pods-Quack_Tests.release.xcconfig */;
+			baseConfigurationReference = 71D6DC6255B1954B0878DEA7AFA760B5 /* Quack.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Quack_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Quack/Quack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quack/Quack-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Quack_Tests/Pods-Quack_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Quack_Tests;
+				MODULEMAP_FILE = "Target Support Files/Quack/Quack.modulemap";
+				PRODUCT_MODULE_NAME = Quack;
+				PRODUCT_NAME = Quack;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -706,38 +776,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		078A7DCEC8D72CD74FFE025B8322F411 /* Build configuration list for PBXNativeTarget "Quack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				274C8BE2B0CF1A4BCB94E3F01D1C7142 /* Debug */,
-				31734AC2A63A415E34FA6725587F2767 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		344A653C0AA78E3D7209DAB371FD654A /* Build configuration list for PBXNativeTarget "Pods-Quack_Tests" */ = {
+		3A63FB1F1FF011AD36536664ABE9196A /* Build configuration list for PBXNativeTarget "Pods-Quack_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E56FC1CDEDA1DE78C6267AA9F7270833 /* Debug */,
-				EBDFC03D890C939652E19A30B5A657C2 /* Release */,
+				B46F5460DFC6C13C00166FCC258206BB /* Debug */,
+				CFDA25FF9D564294E20534CDC029AAE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D526A49FB413E65F526D8FA041B39A30 /* Build configuration list for PBXNativeTarget "Pods-Quack_Example" */ = {
+		90E4917686A1F7785CFFF8ED8198568B /* Build configuration list for PBXNativeTarget "Pods-Quack_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				832B8ACDF7191335B90695053C763627 /* Debug */,
-				2DBC6B668D53EE02E4C9756E8C0C0F95 /* Release */,
+				B27548697FCB33FE7922696D6E9AFCA8 /* Debug */,
+				0912F275A818B42C9B387231A8E35F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2120E57F389FD993A98C0C9709CD4E6 /* Build configuration list for PBXNativeTarget "Quack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A950149818DA2609D62A1BFA4D0D6BD /* Debug */,
+				D66EB300C658435C5DB7C0E08F996D19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

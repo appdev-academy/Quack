@@ -8,11 +8,31 @@
 import UIKit
 
 open class Quack {
+  
+  /**
+    Singleton instance
+   */
+  fileprivate static let shared = Quack()
+  
+  /**
+    Lazy initialize hover window and keep strong reference on it
+   */
+  fileprivate lazy var hoverWindow: UIWindow = {
+    let window = UIWindow(frame: UIScreen.main.bounds)
+    window.backgroundColor = UIColor.clear
+    window.windowLevel = UIWindow.Level.statusBar - 1
+    window.screen = UIScreen.main
+    return window
+  }()
+  
+  /**
+   Present UIAlertController with title, message and "OK" button from specified controller
+   */
+  open class func showAlert(title: String?, message: String?, inController presentingController: UIViewController) {
     
-    /**
-        Singleton instance
-    */
-    fileprivate static let shared = Quack()
+    // Create alert
+    let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+    alertController.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "OK button title in alerts"), style: .default, handler: nil))
     
     /**
         Lazy initialize hover window and keep strong reference on it
@@ -90,6 +110,8 @@ open class Quack {
         }
         self.hideHover()
     }
+    self.hideHover()
+  }
 }
 
 public extension UIViewController {
