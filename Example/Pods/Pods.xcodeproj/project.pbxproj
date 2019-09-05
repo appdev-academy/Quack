@@ -39,10 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E9C20ED888EC7685EB8A78D1D00590 /* Pods_Quack_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Quack_Tests.framework; path = "Pods-Quack_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E9C20ED888EC7685EB8A78D1D00590 /* Pods_Quack_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quack_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABA5137F15683DE1AEA56EB1E5E5032 /* Pods-Quack_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Quack_Example.modulemap"; sourceTree = "<group>"; };
 		0CC7DB98BAF4B6EEA5758DDB54ECF649 /* Pods-Quack_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quack_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		166C813125BBDAE62EF3F45CE08432A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		166C813125BBDAE62EF3F45CE08432A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3738590C7D5D0A193AF17EE018C3DDFB /* Quack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quack-dummy.m"; sourceTree = "<group>"; };
 		38D3D567F3CBE8AAE322F46767DEF405 /* Pods-Quack_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Quack_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -59,20 +59,20 @@
 		8CB34BFD61B2871C3460A7A38354E016 /* Pods-Quack_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Quack_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8D30982DFA3FA680C959F3FD59AB25B1 /* Pods-Quack_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quack_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D24F8FF5FD0A370E9D7E9BCF9190972 /* Pods-Quack_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Quack_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B52D184DB444A819186BCB27A9148DC9 /* Pods-Quack_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Quack_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B68C4FAD0EA11500331CD5946F32BD85 /* HoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoverViewController.swift; path = Quack/Classes/HoverViewController.swift; sourceTree = "<group>"; };
 		C624EEC8AFFC11B8607045DF238C3296 /* Quack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quack-prefix.pch"; sourceTree = "<group>"; };
-		C6ACD22D461AB866B6B8A76FC5F8AD67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C6ACD22D461AB866B6B8A76FC5F8AD67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CFDB872942460E0093147378553FFB35 /* Pods-Quack_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quack_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D09638AA69583FABB6055DEEC583B5B5 /* Quack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Quack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D09638AA69583FABB6055DEEC583B5B5 /* Quack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Quack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D49D56242F573C7CEB5615C2821A71C1 /* Pods-Quack_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quack_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D744FC3270DD56975E8CAEFB6AE294B3 /* Pods-Quack_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quack_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBAF4F4F16A5CD07F89BF739C6B23740 /* Pods-Quack_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Quack_Example-dummy.m"; sourceTree = "<group>"; };
-		E4CB305D9386DDF926F7D8BF62403039 /* Quack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quack.framework; path = Quack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CB305D9386DDF926F7D8BF62403039 /* Quack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED64876C1A84759767790284D986E0BA /* Quack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quack-umbrella.h"; sourceTree = "<group>"; };
 		F22406F25319F0A57A9332C455C4CA8F /* Pods-Quack_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quack_Example-Info.plist"; sourceTree = "<group>"; };
-		F31B360B563291AE545DD527177A633A /* Pods_Quack_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Quack_Example.framework; path = "Pods-Quack_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31B360B563291AE545DD527177A633A /* Pods_Quack_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quack_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,11 +322,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 1030;
-				TargetAttributes = {
-					2F107AE1B92242CB05736438E74081C9 = {
-						LastSwiftMigration = 1030;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -636,8 +631,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -765,7 +759,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
